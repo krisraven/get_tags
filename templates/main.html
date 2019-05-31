@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Find tags!</title>
+  <!-- Scripts  -->
+  <script type="text/javascript" script-name="pontano-sans" src="http://use.edgefonts.net/pontano-sans.js"></script>
+  <!-- Stylesheets -->
+  <link rel= "stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+
+<body>
+  <form class="enjoy-css" id="myForm" action="/main" method="POST">
+    <div>
+      <h3>Enter your choice of tags to find</h3>
+    </div>
+    <div>
+      <input type="text" name="tagone" />
+      <input type="text" name="tagtwo" />
+    </div>
+    <div>
+      <h3>Enter Source</h3>
+    <div>
+    <div><input type="text" value="http://" name="source" /><div>
+    <!-- <div><input type="submit" value="Find tags!" /><div> -->
+    <label>
+      <input type="submit" class="hide-button" />
+      <svg width="180" height="120" class="svg-button">
+      <circle cx="60" cy="60" r="60" fill="#007BFF" />
+        <text x="60" y="60" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle">Sumbit</text>
+      </svg>
+    </label>
+  </form>
+</body>
+
+</html>

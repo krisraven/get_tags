@@ -1,0 +1,35 @@
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: auto;
+  height: auto;
+  border: none;
+  font: normal 16px/1 "pontano-sans", Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(80.53767779197443deg, rgba(145,232,242,1) 0, rgba(145,232,242,1) 29%, rgba(124,188,10,1) 70%, rgba(124,188,10,1) 100%);
+  background: -moz-linear-gradient(9.462322208025569deg, rgba(145,232,242,1) 0, rgba(145,232,242,1) 29%, rgba(124,188,10,1) 70%, rgba(124,188,10,1) 100%);
+  background: linear-gradient(9.462322208025569deg, rgba(145,232,242,1) 0, rgba(145,232,242,1) 29%, rgba(124,188,10,1) 70%, rgba(124,188,10,1) 100%);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.svg-button {
+  padding-left: 200px;
+  padding-bottom: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hide-button {
+  display: none;
+}
