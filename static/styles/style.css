@@ -20,7 +20,7 @@
   background-clip: border-box;
   -webkit-background-size: auto auto;
   background-size: auto auto;
-  padding-top: 5px;
+  padding-top: 20px;
   padding-left: 10px;
 }
 .svg-button {
@@ -28,6 +28,25 @@
   padding-bottom: 50px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.input-box {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 8% auto 0 9%;
+  padding: 0 0 2%;
+  border: 1px solid #000000;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: normal 12px/normal Verdana, Geneva, sans-serif;
+  color: rgba(0,0,0,1);
+  text-align: justify;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  word-spacing: 8%;
+  background: rgba(241,169,78,1);
 }
 
 .hide-button {
